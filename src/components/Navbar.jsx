@@ -33,7 +33,7 @@ const Navbar = () => {
           Home
         </Link>
 
-        <Link href="/timeLine" className={getClass("/timeLine")}>
+        <Link href="/timeline" className={getClass("/timeline")}>
           <IoTimeOutline className="text-lg" />
           Timeline
         </Link>
