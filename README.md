@@ -102,11 +102,20 @@ npm run lint     # Run ESLint
 
 ## 🌐 Live Demo
 
-**Coming Soon!** 🚀
+👉 **[Visit Live Project](https://keen-keeper-ph-a7.vercel.app)** 🚀
 
-This project is ready for deployment on [Vercel](https://vercel.com), the recommended platform for Next.js applications.
+This project is deployed using **Vercel**, the recommended platform for Next.js applications.
 
-For deployment guidance, see the [Next.js Deployment Documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+It is fully functional and optimized for production use.
+
+---
+
+## 🚀 Deployment
+
+Deployed on: [Vercel](https://vercel.com)
+
+For deployment guidance, see the official Next.js documentation:  
+https://nextjs.org/docs/app/building-your-application/deploying
 
 ---
 
