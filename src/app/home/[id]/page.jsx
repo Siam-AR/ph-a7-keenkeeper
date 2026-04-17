@@ -8,6 +8,7 @@ import { RiDeleteBinLine, RiNotificationSnoozeLine } from "react-icons/ri";
 import { FaBoxArchive } from "react-icons/fa6";
 import { PiChatTextBold, PiPhoneCallBold } from "react-icons/pi";
 import { FiVideo } from "react-icons/fi";
+
 import { toast } from "react-toastify";
 
 const FriendDetails = () => {

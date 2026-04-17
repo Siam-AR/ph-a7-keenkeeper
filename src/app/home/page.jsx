@@ -1,10 +1,9 @@
 "use client";
 
 import { useContext } from "react";
+import { DataContext } from "@/app/context/DataContext";
 import { FaUserPlus } from "react-icons/fa";
 import FriendsCard from "@/components/FriendsCard";
-import { DataContext } from "@/app/context/DataContext";
-
 
 const HomePage = () => {
   const { friends, loading } = useContext(DataContext);
