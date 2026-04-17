@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📱 KeenKeeper
 
-## Getting Started
+### *Your Personal Relationship Manager*
 
-First, run the development server:
+Keep your meaningful relationships thriving with **KeenKeeper** — a relationship management application designed to help you maintain and nurture connections with the people who matter most.
 
+---
+
+## 📝 About the Project
+
+**KeenKeeper** is a modern web application that transforms how you manage your friendships and personal relationships. Never worry about neglecting important connections again. Track interaction frequency, get reminders for follow-ups, and maintain a healthy network of meaningful relationships through an intuitive and beautiful interface.
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Technology |
+|----------|-----------|
+| **Framework** | [Next.js 16.2.4](https://nextjs.org) |
+| **UI Library** | [React 19.2.4](https://react.dev) |
+| **Styling** | [Tailwind CSS 4](https://tailwindcss.com) + [DaisyUI 5.5.19](https://daisyui.com) |
+| **Icons** | [React Icons 5.6.0](https://react-icons.github.io/react-icons) |
+| **Notifications** | [React Toastify 11.0.5](https://fkhadra.github.io/react-toastify) |
+| **Build Tool** | PostCSS 4 |
+| **Linting** | ESLint 9 |
+
+---
+
+## ⭐ Key Features
+
+### 1. 👥 **Friendship Dashboard**
+View all your important relationships at a glance with an organized dashboard. See total friends, status summaries (On Track, Almost Due, Overdue), and quick access to your entire network in one place.
+
+### 2. 📊 **Status Tracking & Alerts**
+Monitor relationship health with color-coded status indicators:
+- 🟢 **On Track** — Actively maintained relationships
+- 🟡 **Almost Due** — Relationships needing attention soon  
+- 🔴 **Need Attention** — Overdue connections requiring immediate action
+
+### 3. 📈 **Timeline & Analytics**
+Gain insights into your relationship patterns with detailed timeline views and statistics. Track interaction history and understand how well you're nurturing your network over time.
+
+---
+
+## 📦 Installation
+
+### Requirements
+- **Node.js** 18+ or higher
+- **npm**, **yarn**, or **pnpm** package manager
+
+### Setup Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Siam-AR/ph-a7-keenkeeper
+   cd ph-a7-keen-keeper
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the application**
+   Open your browser and navigate to: **http://localhost:3000**
+
+---
+
+## 🚀 Usage
+
+### Main Navigation
+- **Home** (`/home`) — Dashboard with friends overview and status cards
+- **Friend Details** (`/home/:friendId`) — Individual relationship management
+- **Timeline** (`/timeline`) — Historical interaction records
+- **Stats** (`/stats`) — Relationship analytics and insights
+
+### Getting Started
+1. Launch the app at http://localhost:3000
+2. Add friends using the **"Add a Friend"** button
+3. Monitor their status from the dashboard
+4. Update interaction records as you connect
+5. Review timeline and stats to stay accountable
+
+### Development Commands
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev      # Start development server
+npm run build    # Build for production
+npm start        # Start production server
+npm run lint     # Run ESLint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌐 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Coming Soon!** 🚀
 
-## Learn More
+This project is ready for deployment on [Vercel](https://vercel.com), the recommended platform for Next.js applications.
 
-To learn more about Next.js, take a look at the following resources:
+For deployment guidance, see the [Next.js Deployment Documentation](https://nextjs.org/docs/app/building-your-application/deploying).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📚 Learn More
 
-## Deploy on Vercel
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://react.dev)
+- [Tailwind CSS Guide](https://tailwindcss.com/docs)
+- [DaisyUI Components](https://daisyui.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is private. Contact the development team for access or inquiries.
+
+---
+
+**Keep your relationships close. Keep them in KeenKeeper.** ✨
